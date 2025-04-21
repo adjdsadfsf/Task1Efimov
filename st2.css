@@ -1,0 +1,61 @@
+/*Вход в MD*/
+.Reg-text{
+    color: #021033;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.loginvvod {
+    height: 35px;
+    border-radius: 10px;
+    border: none; /* лучше использовать border: none; вместо border-width: 0px; */
+    background-color: #021033;
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 500;
+    padding-left: 15px;
+    margin-top: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.loginvvod::placeholder {
+    color: #FFFFFF; /* устанавливаем цвет текста плейсхолдера */
+    opacity: 0.7; /* добавьте непрозрачность, чтобы плейсхолдер был менее заметен */
+}
+.loginvvod:focus {
+    outline: none; /* убираем стандартный контур фокуса */
+    background-color: #0c1a4d; /* можно сделать цвет чуть светлее или изменить его */
+}
+.btn-reg{
+    width: 100%;
+    height: 35px;
+    background-color: #000000;
+    border-radius: 10px;
+    border-width: 0px;
+    margin-top: 20px;
+}
+.btn-reg p{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    cursor: pointer;
+}
+.zabPar{
+    font-size: 14px;
+    color: #021033;
+    text-decoration: none;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 10px;
+}
+.zabPar1{
+    font-size: 14px;
+    margin-top: 10px;
+    color: #021033;
+    text-decoration: none;
+    font-weight: 700;
+    text-align: center;
+}
